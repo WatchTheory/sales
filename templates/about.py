@@ -6,8 +6,8 @@ with col1:
     st.image("./assets/connect_brain.png", width=250)
 
 with col2:
-    st.title("General Kenobi", anchor=False)
-    st.write("Data Analyst Pro")
+    st.title("Welcome to my dashboard", anchor=False)
+    st.write("Data Analyst Project:")
 
 # Skills Session
 
