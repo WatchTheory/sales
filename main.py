@@ -13,7 +13,7 @@ about_page = st.Page(
 )
 
 project_1_page = st.Page(
-    "templates/dashboard.py", title="Sales Dashboard", icon=":material/bar_chart:"
+    "templates/dashboards.py", title="Sales Dashboard", icon=":material/bar_chart:",
 )
 
 # --- Navigation Session Setup ---
@@ -23,6 +23,12 @@ pn = st.navigation(
         "Projects": [project_1_page],
     }
 )
+
+
+# Stuff to be shared with all pages Session
+st.logo("assets/program.png")
+st.sidebar.markdown("Thank you for comming to my Ted Talk!")
+
 
 
 # --- Running Navigation ---
