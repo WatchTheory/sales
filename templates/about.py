@@ -9,6 +9,24 @@ with col2:
     st.title("Welcome to my dashboard", anchor=False)
     st.write("Data Analyst Project:")
 
-# Skills Session
 
+# Qualifications
+st.write("\n")
+st.subheader("Qualifications", anchor=False)
+st.write(
+    """
+    - X years of Experience doing blah
+    """
+)
+
+
+# Skills Session
+st.write("\n")
+st.subheader("Skills", anchor=False)
+st.write(
+    """
+    - X years of Experience doing blah
+    """
+
+)
 
